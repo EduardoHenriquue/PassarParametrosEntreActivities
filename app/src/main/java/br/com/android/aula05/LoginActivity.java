@@ -44,9 +44,9 @@ public class LoginActivity extends AppCompatActivity {
         else{
             // Intenção para a troca de tela
             Intent intent = new Intent(this,MainActivity.class);
-            // Inicializa um objeto do tipo Bundle
+            // Inicializa um objeto do tipo Bundle.
             Bundle params = new Bundle();
-            // Adiciona parâmetros ao Bundle inicializado
+            // Adiciona parâmetros ao Bundle inicializado.
             params.putString("nome", login);
             // Adiciona o map(Bundle) à intent.
             intent.putExtras(params);
