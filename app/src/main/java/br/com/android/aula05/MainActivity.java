@@ -15,8 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // Texto da activity
         texto = (TextView)findViewById(R.id.texto_bem_vindo);
-        // Inicializa a intenção para a troca de tela
-        Intent intent = new Intent();
+        
         // Recupera os argumentos do map da intent que foram passados na activity anterior.
         Bundle args = getIntent().getExtras();
         // Obtém o parâmetro do map que contém a String "nome"
